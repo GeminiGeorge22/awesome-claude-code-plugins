@@ -378,6 +378,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
+- [Public Records](https://github.com/GeminiGeorge22/publicrecords-skills) — Agent Skills plus a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts and forecast track records. Actor runs bill your own Apify account. Install: `npx skills add GeminiGeorge22/publicrecords-skills` or `/plugin marketplace add GeminiGeorge22/publicrecords-skills`.
+
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
@@ -394,6 +396,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [GeminiGeorge22/publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) | Public Records plugin: official public data (contracts, grants, tenders, jobs, company socials, Etsy, ads, odds, Spotify, forecast track records). Uses your own Apify account. | `claude plugin marketplace add GeminiGeorge22/publicrecords-skills` then `claude plugin install publicrecords@publicrecords` |
 
 
 ### Skills & Frameworks
@@ -425,6 +428,8 @@ Example:
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
+
+- [Public Records](https://github.com/GeminiGeorge22/publicrecords-skills) — Claude Code plugin marketplace for official public-data Actors on Apify. Install: `/plugin marketplace add GeminiGeorge22/publicrecords-skills`. Actor runs bill your own Apify account.
 
 ## Contributing
 
