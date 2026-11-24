@@ -398,6 +398,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+- [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) — Agent Skills + MCP plugin (Claude Code, Codex, Copilot, Cursor, Gemini CLI, Kiro) for 18 public-data Apify Actors: SAM.gov, Grants.gov, USAspending, EU/UK tenders, council meetings, ATS jobs, company socials, Google Ads, Etsy, sports odds, Spotify.
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
